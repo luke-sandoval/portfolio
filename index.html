@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head> <link rel="stylesheet" href="style.css"></head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,20 +12,39 @@
             margin: 0;
             padding: 0;
         }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
         .container {
             max-width: 450px;
             margin: 50px auto;
             padding: 20px;
         }
+
         img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             object-fit: cover;
         }
+
         h1 {
             margin: 10px 0;
         }
+
         button {
             display: block;
             width: 50%;
@@ -38,24 +57,27 @@
             border-radius: 30px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
         button:hover {
             background: #000000;
         }
     </style>
 </head>
 <body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Sandoval Portfolio</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <img src="portfolio.jpg" alt="My Image">
         <h1>Luke Gabriel Sandoval</h1>
-        <h3>Future Programmer</h3>
-        
-        <button onclick="showSection('about')">About Me</button>
+        <h3>Aspiring Programmer</h3>
+
+        <button onclick="showSection('about')">About</button>
         <button onclick="showSection('experience')">Experience</button>
-        <button onclick="showSection('contact')">Contact Me</button>
-    
-        
-        <div id="content" style="margin-top: 50px;"></div>
+        <button onclick="showSection('contact')">Contact</button>
     </div>
-    
 </body>
 </html>
