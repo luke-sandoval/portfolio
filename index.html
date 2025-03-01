@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head> <link rel="stylesheet" href="style.css"></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 450px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        button {
+            display: block;
+            width: 50%;
+            padding: 15px;
+            margin: 10px;
+            border: none;
+            background: #1f0101f3;
+            color: white;
+            cursor: pointer;
+            border-radius: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        button:hover {
+            background: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="portfolio.jpg" alt="My Image">
+        <h1>Luke Gabriel Sandoval</h1>
+        <h3>Future Programmer</h3>
+        
+        <button onclick="showSection('about')">About Me</button>
+        <button onclick="showSection('experience')">Experience</button>
+        <button onclick="showSection('contact')">Contact Me</button>
+    
+        
+        <div id="content" style="margin-top: 50px;"></div>
+    </div>
+    
+</body>
+</html>
