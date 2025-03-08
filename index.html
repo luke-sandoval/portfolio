@@ -61,23 +61,62 @@
         button:hover {
             background: #000000;
         }
+
+        .section {
+            display: none;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
 
     <nav>
         <ul>
-            <li><a href="#">Sandoval Portfolio</a></li>
+            <li><a href="#">Portfolio</a></li>
         </ul>
     </nav>
+
     <div class="container">
         <img src="portfolio.jpg" alt="My Image">
         <h1>Luke Gabriel Sandoval</h1>
         <h3>Aspiring Programmer</h3>
 
         <button onclick="showSection('about')">About</button>
-        <button onclick="showSection('experience')">Experience</button>
+        <button onclick="showSection('achievements')">Achievements</button>
         <button onclick="showSection('contact')">Contact</button>
+
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm Luke, a second year BSIT student at Saint Dominic College of Asia.</p>
+            <p></p>
+        </div>
+        
+        <div id="achievements" class="section">
+            <h2>Achievements</h2>
+            <h1>FIRST YEAR S.Y 23-24</h1>
+            <p></p>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p></p>
+        </div>
     </div>
+
+    <script>
+        function showSection(sectionId) {
+            let sections = document.querySelectorAll('.section');
+            sections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+            
+            let section = document.getElementById(sectionId);
+            if (section) {
+                section.style.display = 'block';
+            }
+        }
+    </script>
+
 </body>
 </html>
+
