@@ -52,11 +52,12 @@ nav ul a:hover{
     color: white;
     font-weight: 800;
     opacity: 0.8;
-    transition: 0.2s ease-in-out
+    transition: 0.2s ease-in-out;
+    margin-right: 1.5em;
 }
 
 .logo:hover{
-    opacity: 1;
+    opacity: 2;
 }
 
 .btn{
@@ -68,7 +69,8 @@ nav ul a:hover{
     font-size: 1.1em;
     border: 2px solid white;
     cursor: pointer;
-    transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out;
+    margin-left: 1.5em;
 }
 
 .btn:hover{
@@ -106,27 +108,57 @@ section{
 #Home img{
     width: 18vw;
     border-radius: 50%;
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
-.info-box{
+#Home .info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 700px;
+}
+
+#Home .info-box h1{
+    font-size: 7em;
+    font-weight: 500;
+}
+
+#Home .info-box h3{
+    font-size: 4em;
+    font-weight: 400;
+}
+
+#Home .info-box p{
+    font-size: 1.5em;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+#About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: white;
+}
+
+#About .info-box{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 0.5em;
-    max-width: 600px;
+    max-width: 700px;
 }
 
-.info-box h1{
-    font-size: 5em;
+#About .info-box h1{
+    font-size: 7em;
     font-weight: 500;
+    margin-bottom: 0.1em;
 }
 
-.info-box h3{
-    font-size: 2em;
-    font-weight: 400;
-}
-
-.info-box p{
+#About .info-box p{
     opacity: 0.7;
+    font-size: 1.5em;
 }
+
