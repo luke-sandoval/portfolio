@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root{
@@ -87,4 +87,46 @@ span{
     color: white;
     font-size: 3em;
     display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5% 15%;
+}
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: white;
+}
+
+#Home img{
+    width: 18vw;
+    border-radius: 50%;
+    margin-top: 3em;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5em;
+    max-width: 600px;
+}
+
+.info-box h1{
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.info-box h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.info-box p{
+    opacity: 0.7;
 }
