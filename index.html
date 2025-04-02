@@ -3,57 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Luke Gabriel Sandoval | Home</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#">Portfolio</a></li>
-        </ul>
-    </nav>
 
-    <div class="container">
-        <img src="sandoval_vs.jpg" alt="My Image">
-        <h1>Luke Gabriel Sandoval</h1>
-        <h3>Aspiring Programmer</h3>
 
-        <button onclick="showSection('about')">About</button>
-        <button onclick="showSection('achievements')">Achievements</button>
-        <button onclick="showSection('contact')">Contact</button>
 
-        <div id="about" class="section">
-            <h2>About Me</h2>
-            <p>I'm Luke, a second year BSIT student at Saint Dominic College of Asia.</p>
-        </div>
-        
-        <div id="achievements" class="section">
-            <h2>Achievements</h2>
-            <h1>First Year 23-24</h1>
-            <p>Microsoft Word Certification Passer</p>
-            <p>Microsoft Power Point Certification passer</p>
-        </div>
 
-        <div id="contact" class="section">
-            <h2>Contact</h2>
-        </div>
-    </div>
-
-    <script>
-        function showSection(sectionId) {
-            let sections = document.querySelectorAll('.section');
-            sections.forEach(function(section) {
-                section.style.display = 'none';
-            });
-            
-            let section = document.getElementById(sectionId);
-            if (section) {
-                section.style.display = 'block';
-            }
-        }
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
