@@ -204,31 +204,28 @@ section{
     }
 
     #Home h1{
-        font-size: 3em;
-    }
-    #Home h3{
         font-size: 1em;
     }
+    #Home h3{
+        font-size: 0.3em;
+    }
     #Home img{
-        width: 24vw;
+        width: 28vw;
     }
     #About{
         flex-direction: column;
     }
-    #About img{
-        width: 32vw;
-    }
     #About h1{
-        font-size: 3em;
+        font-size: 1.5em;
     }
 }
 
 @media(max-width: 768px){
     #Home h1{
-        font-size: 2em;
+        font-size: 1em;
     }
     #Home h3{
-        font-size: 1em;
+        font-size: 0.5em;
     }
     #Home img{
         width: 32vw;
