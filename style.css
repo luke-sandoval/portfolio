@@ -182,28 +182,44 @@ section {
         color: white;
     }
 
+    #Home .info-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 400px;
+    }
+
     #Home .info-box h1 {
         font-size: 3.5em;
+        opacity: 15;
     }
 
     #Home .info-box h3 {
-        font-size: 2em;
+        font-size: 2.1em;
+        opacity: 15;
     }
 
     #Home .info-box p {
-        font-size: 1.3em;
+        font-size: 1.6em;
+        opacity: 15;
     }
 
     #Home img {
-        width: 30vw;
+        width: 23vw;
     }
 
     #About .info-box h1 {
         font-size: 3.5em;
+        opacity: 15;
     }
 
     #About .info-box h2 {
         font-size: 2.5em;
+        opacity: 15;
+    }
+
+    #About .info-box p {
+        opacity: 15;
     }
 }
 
@@ -217,42 +233,39 @@ section {
     }
 
     #Home img {
-        width: 40vw;
+        width: 30vw;
     }
 
     #Home .info-box h1 {
         font-size: 3em;
+        opacity: 15;
     }
 
     #Home .info-box h3 {
         font-size: 1.8em;
+        opacity: 15;
     }
 
     #Home .info-box p {
-        font-size: 1em;
+        font-size: 1.3em;
+        opacity: 15;
     }
 
     #About .info-box h1 {
         font-size: 2.5em;
+        opacity: 15;
     }
 
     #About .info-box p {
         font-size: 1em;
+        opacity: 15;
     }
 
     #About .info-box h2 {
         font-size: 2em;
+        opacity: 15;
     }
 
-    .credly {
-        width: 100%;
-        overflow: auto;
-        border: 4px solid #ccc;
-    }
-
-    .credly div {
-        width: 100% !important;
-    }
 }
 
 @media (max-width: 480px) {
@@ -262,29 +275,36 @@ section {
 
     #Home .info-box h1 {
         font-size: 2.3em;
+        opacity: 15;
     }
 
     #Home .info-box h3 {
-        font-size: 1.5em;
+        font-size: 2em;
+        opacity: 15;
     }
 
     #Home .info-box p {
-        font-size: 0.9em;
+        font-size: 1.1em;
+        opacity: 15;
     }
 
     #Home img {
-        width: 50vw;
+        width: 40vw;
     }
 
     #About .info-box h1 {
-        font-size: 2em;
+        font-size: 4em;
+        opacity: 15;
     }
 
     #About .info-box p {
-        font-size: 0.8em;
+        font-size: 1.5em;
+        opacity: 15;
+        margin-top: 0.8em;
     }
 
     #About .info-box h2 {
         font-size: 1.5em;
+        opacity: 15;
     }
 }
