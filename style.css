@@ -237,7 +237,7 @@ section {
     }
 
     #Home .info-box h1 {
-        font-size: 3em;
+        font-size: 4em;
         opacity: 15;
     }
 
@@ -252,7 +252,7 @@ section {
     }
 
     #About .info-box h1 {
-        font-size: 2.5em;
+        font-size: 3em;
         opacity: 15;
     }
 
@@ -262,7 +262,7 @@ section {
     }
 
     #About .info-box h2 {
-        font-size: 2em;
+        font-size: 2.5em;
         opacity: 15;
     }
 
@@ -274,17 +274,17 @@ section {
     }
 
     #Home .info-box h1 {
-        font-size: 2.3em;
+        font-size: 3.1em;
         opacity: 15;
     }
 
     #Home .info-box h3 {
-        font-size: 2em;
+        font-size: 2.3em;
         opacity: 15;
     }
 
     #Home .info-box p {
-        font-size: 1.1em;
+        font-size: 1.5em;
         opacity: 15;
     }
 
@@ -293,18 +293,18 @@ section {
     }
 
     #About .info-box h1 {
-        font-size: 4em;
+        font-size: 2.8em;
         opacity: 15;
     }
 
     #About .info-box p {
-        font-size: 1.5em;
+        font-size: 0.8em;
         opacity: 15;
         margin-top: 0.8em;
     }
 
     #About .info-box h2 {
-        font-size: 1.5em;
+        font-size: 2em;
         opacity: 15;
     }
 }
