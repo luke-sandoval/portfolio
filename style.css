@@ -208,16 +208,16 @@ section{
 
 @media(max-width: 768px){
     #Home .info-box h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
     #Home .info-box h3{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     #Home .info-box p{
-        font-size: 1em;
+        font-size: 1.3em;
     }
     #Home img{
-        width: 27vw;
+        width: 32vw;
         margin-top: 7em;
     }
     #About{
