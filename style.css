@@ -263,11 +263,6 @@ section {
 #Contact .socials i {
     font-size: 3.5em;
     margin-bottom: 0.5em;
-    transition: transform 0.3s ease-in-out;
-}
-
-#Contact .socials i:hover {
-    transform: scale(1.5);
 }
 
 #Contact .socials p {
@@ -378,7 +373,8 @@ section {
     }
 
     #Contact h1 {
-        font-size: 3em;
+        font-size: 3.5em;
+        opacity: 15;
     }
 
     #Contact p {
@@ -486,11 +482,13 @@ section {
     }
     
     #Contact h1 {
-        font-size: 2.5em;
+        font-size: 3em;
+        opacity: 15;
     }
 
     #Contact p {
-        font-size: 1.2em;
+        font-size: 1.3em;
+        opacity: 15;
     }
 
     #Contact .tech-container a {
@@ -587,11 +585,11 @@ section {
     }
 
     #Contact h1 {
-        font-size: 2em;
+        font-size: 2.8em;
     }
 
     #Contact p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     #Contact .tech-container a {
