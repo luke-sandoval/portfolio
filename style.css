@@ -183,6 +183,7 @@ section {
     opacity: 0.7;
     font-size: 1.3em;
     margin-bottom: 2em;
+    color: white;
 }
 
 #tech-stack .info-box h2 {
@@ -437,7 +438,7 @@ section {
     }
 
     #About .info-box p {
-        font-size: 1.2em;
+        font-size: 1.5em;
         opacity: 15;
         margin-top: 0.8em;
     }
@@ -484,5 +485,6 @@ section {
 
     .tech-container p {
         font-size: 1em;
+        opacity: 15;
     }
 }
