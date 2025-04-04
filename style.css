@@ -194,7 +194,7 @@ section{
         font-size: 1em;
     }
     #Home img{
-        width: 23vw;
+        width: 30vw;
         margin-top: 5em;
     }
     #About{
@@ -217,7 +217,7 @@ section{
         font-size: 1.3em;
     }
     #Home img{
-        width: 32vw;
+        width: 38vw;
         margin-top: 7em;
     }
     #About{
@@ -245,16 +245,16 @@ section{
         font-weight: 700;
     }
     #Home .info-box h1 {
-        font-size: 2.3em;
+        font-size: 3em;
     }
     #Home .info-box h3 {
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
     #Home .info-box p {
-        font-size: 0.7em;
+        font-size: 1em;
     }
     #Home img {
-        width: 35vw;
+        width: 50vw;
     }
     #About .info-box h1 {
         font-size: 2em;
