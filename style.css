@@ -224,73 +224,55 @@ section {
 }
 
 #Contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-    padding-top: 7em;
+    min-height: 100vh;
+    padding: 10% 15%;
     color: white;
+    padding-top: 7em;
+    background-color: var(--background);
 }
 
 #Contact .info-box {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    gap: 0.5em;
-    max-width: 700px;
 }
 
-#Contact .info-box h1 {
-    font-size: 4.5em;
+#Contact h1 {
+    font-size: 3.5em;
     font-weight: 500;
-    margin-top: 0.5em;
-    margin-bottom: 0.1em;
-}
-
-#Contact .info-box p {
-    opacity: 0.7;
-    font-size: 1.3em;
-    margin-bottom: 3em;
-}
-
-#Contact .info-box h2 {
-    font-size: 3em;
-    font-weight: 400;
     margin-bottom: 1em;
 }
 
-.socials {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 2em;
-    justify-items: center;
-    margin-top: 2em;
+#Contact p {
+    font-size: 1.3em;
+    opacity: 0.8;
+    margin-bottom: 3em;
 }
 
-.socials div {
+#Contact .socials {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-size: 1.2em;
+    justify-content: center;
+    gap: 4em;
 }
 
-.socials i {
-    font-size: 4em;
-    margin-bottom: 0.1em;
+#Contact .socials a {
+    text-decoration: none;
+    color: white;
+}
+
+#Contact .socials i {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
     transition: transform 0.3s ease-in-out;
 }
 
-.socials i:hover {
+#Contact .socials i:hover {
     transform: scale(1.5);
 }
 
-.socials p {
-    font-size: 1.1em;
+#Contact .socials p {
+    font-size: 1.7em;
     opacity: 0.8;
+    margin-top: 0.5em;
 }
-
 
 @media (max-width: 1024px) {
     #menu {
@@ -392,6 +374,31 @@ section {
     .tech-container p {
         font-size: 1.1em;
     }
+
+    #Contact h1 {
+        font-size: 3em;
+    }
+
+    #Contact p {
+        font-size: 1.3em;
+    }
+
+    #Contact .tech-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Contact .tech-container a {
+        margin: 1em 0;
+    }
+
+    #Contact .tech-container i {
+        font-size: 3em;
+    }
+
+    #Contact .tech-container p {
+        font-size: 1.1em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -475,6 +482,26 @@ section {
     .tech-container p {
         font-size: 1.1em;
     }
+    
+    #Contact h1 {
+        font-size: 2.5em;
+    }
+
+    #Contact p {
+        font-size: 1.2em;
+    }
+
+    #Contact .tech-container a {
+        margin: 1.5em 0;
+    }
+
+    #Contact .tech-container i {
+        font-size: 2.5em;
+    }
+
+    #Contact .tech-container p {
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 480px) {
@@ -555,5 +582,25 @@ section {
     .tech-container p {
         font-size: 1em;
         opacity: 15;
+    }
+
+    #Contact h1 {
+        font-size: 2em;
+    }
+
+    #Contact p {
+        font-size: 1em;
+    }
+
+    #Contact .tech-container a {
+        margin: 2em 0;
+    }
+
+    #Contact .tech-container i {
+        font-size: 2em;
+    }
+
+    #Contact .tech-container p {
+        font-size: 0.9em;
     }
 }
