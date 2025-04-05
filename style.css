@@ -370,17 +370,17 @@ section {
 
     #Home .info-box h1 {
         font-size: 3.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box h3 {
         font-size: 2.1em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box p {
         font-size: 1.6em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home img {
@@ -389,16 +389,16 @@ section {
 
     #About .info-box h1 {
         font-size: 3.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box h2 {
         font-size: 2.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box p {
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box {
@@ -408,18 +408,18 @@ section {
 
     #tech-stack .info-box h1 {
         font-size: 3.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box p {
         font-size: 1.4em;
-        opacity: 15;
+        opacity: 1;
         margin-bottom: 2em;
     }
 
     #tech-stack .info-box h2 {
         font-size: 2.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     .tech-container {
@@ -434,33 +434,33 @@ section {
         font-size: 3.5em;
     }
 
-    .tech-container p {
+    .tech-container .info-box p {
         font-size: 1.1em;
     }
 
-    #Contact h1 {
+    #Contact .info-box h1 {
         font-size: 3.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
-    #Contact p {
+    #Contact .info-box p {
         font-size: 1.3em;
     }
 
-    #Contact .tech-container {
-        flex-direction: column;
+    #Contact .socials {
+        flex-direction: row;
         align-items: center;
     }
 
-    #Contact .tech-container a {
+    #Contact .socials a {
         margin: 1em 0;
     }
 
-    #Contact .tech-container i {
+    #Contact .socials i {
         font-size: 3em;
     }
 
-    #Contact .tech-container p {
+    #Contact .socials p {
         font-size: 1.1em;
     }
 
@@ -494,32 +494,32 @@ section {
 
     #Home .info-box h1 {
         font-size: 4em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box h3 {
         font-size: 1.8em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box p {
         font-size: 1.3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box h1 {
         font-size: 3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box p {
         font-size: 1em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box h2 {
         font-size: 2.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box {
@@ -532,17 +532,17 @@ section {
 
     #tech-stack .info-box h1 {
         font-size: 3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box p {
         font-size: 1.3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box h2 {
         font-size: 2.3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     .tech-container {
@@ -561,25 +561,25 @@ section {
         font-size: 1.1em;
     }
     
-    #Contact h1 {
+    #Contact .info-box h1 {
         font-size: 3em;
-        opacity: 15;
+        opacity: 1;
     }
 
-    #Contact p {
+    #Contact .info-box p {
         font-size: 1.3em;
-        opacity: 15;
+        opacity: 1;
     }
 
-    #Contact .tech-container a {
+    #Contact .socials a {
         margin: 1.5em 0;
     }
 
-    #Contact .tech-container i {
+    #Contact .socials i {
         font-size: 2.5em;
     }
 
-    #Contact .tech-container p {
+    #Contact .socials p {
         font-size: 1em;
     }
 
@@ -599,17 +599,17 @@ section {
 
     #Home .info-box h1 {
         font-size: 3.1em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box h3 {
         font-size: 2.3em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home .info-box p {
         font-size: 1.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #Home img {
@@ -618,18 +618,18 @@ section {
 
     #About .info-box h1 {
         font-size: 2.8em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #About .info-box p {
         font-size: 1.3em;
-        opacity: 15;
+        opacity: 1;
         margin-top: 0.8em;
     }
 
     #About .info-box h2 {
         font-size: 2em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box {
@@ -642,17 +642,17 @@ section {
 
     #tech-stack .info-box h1 {
         font-size: 2.8em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box p {
         font-size: 1.5em;
-        opacity: 15;
+        opacity: 1;
     }
 
     #tech-stack .info-box h2 {
         font-size: 2em;
-        opacity: 15;
+        opacity: 1;
     }
 
     .tech-container {
@@ -669,26 +669,26 @@ section {
 
     .tech-container p {
         font-size: 1em;
-        opacity: 15;
+        opacity: 1;
     }
 
-    #Contact h1 {
+    #Contact .info-box h1 {
         font-size: 2.8em;
     }
 
-    #Contact p {
+    #Contact .info-box p {
         font-size: 1.5em;
     }
 
-    #Contact .info-box a {
+    #Contact .socials a {
         margin: 2em 0;
     }
 
-    #Contact .info-box i {
+    #Contact .socials i {
         font-size: 2em;
     }
 
-    #Contact .info p {
+    #Contact .socials p {
         font-size: 0.9em;
     }
 
