@@ -289,7 +289,10 @@ section {
 }
 
 #Contact .info-box {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    max-width: 700px;
 }
 
 #Contact h1 {
