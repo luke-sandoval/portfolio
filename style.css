@@ -28,7 +28,7 @@ body::before {
     left: 0;
     width: 200%;
     height: 200%;
-    background-image: radial-gradient(white 1.5px, transparent 1px);
+    background-image: radial-gradient(white 2px, transparent 1px);
     background-size: 50px 50px;
     animation: moveParticles 60s linear infinite;
     opacity: 0.09;
@@ -38,19 +38,19 @@ body::before {
 
 @keyframes moveParticles {
     0% {
-        transform: translate(0, 0);
+        transform: translate(5, 5);
     }
     25% {
-        transform: translate(-20px, -30px);
+        transform: translate(-25px, -35px);
     }
     50% {
-        transform: translate(40px, -10px);
+        transform: translate(45px, -15px);
     }
     75% {
-        transform: translate(-10px, 20px);
+        transform: translate(-15px, 25px);
     }
     100% {
-        transform: translate(30px, -40px);
+        transform: translate(35px, -45px);
     }
 }
 
@@ -441,11 +441,13 @@ section {
     #Contact .info-box p {
         font-size: 1.3em;
         opacity: 1;
+        margin-top: 1em;
     }
 
     #Contact .socials {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+        gap: 2;
     }
 
     #Contact .socials i {
