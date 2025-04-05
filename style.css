@@ -311,7 +311,7 @@ section {
     color: white;
 }
 
- .socials {
+#Contact .socials {
     display: flex;
     justify-content: center;
     gap: 4em;
@@ -368,7 +368,10 @@ section {
         max-width: 400px;
     }
 
-    #Home .info-box h1 {
+    #Home .info-box h1,
+    #About .info-box h1,
+    #tech-stack .info-box h1,
+    #Contact .info-box h1 {
         font-size: 3.5em;
         opacity: 1;
     }
@@ -387,17 +390,14 @@ section {
         width: 23vw;
     }
 
-    #About .info-box h1 {
-        font-size: 3.5em;
-        opacity: 1;
-    }
-
-    #About .info-box h2 {
+    #About .info-box h2,
+    #tech-stack .info-box h2 {
         font-size: 2.5em;
         opacity: 1;
     }
 
-    #About .info-box p {
+    #About .info-box p,
+    #tech-stack .info-box p {
         opacity: 1;
     }
 
@@ -406,20 +406,9 @@ section {
         max-width: 600px;
     }
 
-    #tech-stack .info-box h1 {
-        font-size: 3.5em;
-        opacity: 1;
-    }
-
     #tech-stack .info-box p {
         font-size: 1.4em;
-        opacity: 1;
         margin-bottom: 2em;
-    }
-
-    #tech-stack .info-box h2 {
-        font-size: 2.5em;
-        opacity: 1;
     }
 
     .tech-container {
@@ -438,25 +427,20 @@ section {
         font-size: 1.1em;
     }
 
-    #Contact .info-box h1 {
-        font-size: 3.5em;
-        opacity: 1;
-    }
-
     #Contact .info-box p {
         font-size: 1.3em;
     }
 
-     .socials {
+    .socials {
         flex-direction: row;
         align-items: center;
     }
 
-     .socials i {
+    .socials i {
         font-size: 3.5em;
     }
 
-     .socials p {
+    .socials p {
         font-size: 1.1em;
     }
 
@@ -471,7 +455,7 @@ section {
     }
 
     .awards img:hover {
-        transform: scale(1.6);            
+        transform: scale(1.6);
     }
 }
 
@@ -490,32 +474,26 @@ section {
 
     #Home .info-box h1 {
         font-size: 4em;
-        opacity: 1;
     }
 
     #Home .info-box h3 {
         font-size: 1.8em;
-        opacity: 1;
     }
 
     #Home .info-box p {
         font-size: 1.3em;
-        opacity: 1;
     }
 
     #About .info-box h1 {
         font-size: 3em;
-        opacity: 1;
-    }
-
-    #About .info-box p {
-        font-size: 1em;
-        opacity: 1;
     }
 
     #About .info-box h2 {
         font-size: 2.5em;
-        opacity: 1;
+    }
+
+    #About .info-box p {
+        font-size: 1em;
     }
 
     #tech-stack .info-box {
@@ -528,17 +506,14 @@ section {
 
     #tech-stack .info-box h1 {
         font-size: 3em;
-        opacity: 1;
-    }
-
-    #tech-stack .info-box p {
-        font-size: 1.3em;
-        opacity: 1;
     }
 
     #tech-stack .info-box h2 {
         font-size: 2.3em;
-        opacity: 1;
+    }
+
+    #tech-stack .info-box p {
+        font-size: 1.3em;
     }
 
     .tech-container {
@@ -556,22 +531,20 @@ section {
     .tech-container p {
         font-size: 1.1em;
     }
-    
+
     #Contact .info-box h1 {
         font-size: 3em;
-        opacity: 1;
     }
 
     .info-box p {
         font-size: 1.3em;
-        opacity: 1;
     }
 
-     .socials i {
+    .socials i {
         font-size: 3.5em;
     }
 
-     .socials p {
+    .socials p {
         font-size: 1.1em;
     }
 
@@ -580,7 +553,7 @@ section {
     }
 
     .awards img:hover {
-        transform: scale(1.6);            
+        transform: scale(1.6);
     }
 }
 
@@ -591,17 +564,14 @@ section {
 
     #Home .info-box h1 {
         font-size: 3.1em;
-        opacity: 1;
     }
 
     #Home .info-box h3 {
         font-size: 2.3em;
-        opacity: 1;
     }
 
     #Home .info-box p {
         font-size: 1.5em;
-        opacity: 1;
     }
 
     #Home img {
@@ -610,18 +580,15 @@ section {
 
     #About .info-box h1 {
         font-size: 2.8em;
-        opacity: 1;
-    }
-
-    #About .info-box p {
-        font-size: 1.3em;
-        opacity: 1;
-        margin-top: 0.8em;
     }
 
     #About .info-box h2 {
         font-size: 2em;
-        opacity: 1;
+    }
+
+    #About .info-box p {
+        font-size: 1.3em;
+        margin-top: 0.8em;
     }
 
     #tech-stack .info-box {
@@ -634,17 +601,14 @@ section {
 
     #tech-stack .info-box h1 {
         font-size: 2.8em;
-        opacity: 1;
-    }
-
-    #tech-stack .info-box p {
-        font-size: 1.5em;
-        opacity: 1;
     }
 
     #tech-stack .info-box h2 {
         font-size: 2em;
-        opacity: 1;
+    }
+
+    #tech-stack .info-box p {
+        font-size: 1.5em;
     }
 
     .tech-container {
@@ -661,7 +625,6 @@ section {
 
     .tech-container p {
         font-size: 1em;
-        opacity: 1;
     }
 
     #Contact .info-box h1 {
@@ -672,11 +635,11 @@ section {
         font-size: 1.5em;
     }
 
-     .socials i {
+    .socials i {
         font-size: 3em;
     }
 
-     .socials p {
+    .socials p {
         font-size: 1em;
     }
 
@@ -686,6 +649,6 @@ section {
     }
 
     .awards img:hover {
-        transform: scale(1.6);            
+        transform: scale(1.6);
     }
 }
