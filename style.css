@@ -1,4 +1,4 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,15 +8,52 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-:root{
-    --background: rgb(24,24,24);
-    --second-background: rgb(21,21,21)
+:root {
+    --background: rgb(24, 24, 24);
+    --second-background: rgb(21, 21, 21);
 }
 
-body{
+body {
     min-height: 100vh;
     background-color: var(--background);
+    position: relative;
+    overflow: auto;  
 }
+
+
+body::before {
+    content: "";
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-image: radial-gradient(white 1.5px, transparent 1px);
+    background-size: 50px 50px;
+    animation: moveParticles 60s linear infinite;
+    opacity: 0.09;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes moveParticles {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-20px, -30px);
+    }
+    50% {
+        transform: translate(40px, -10px);
+    }
+    75% {
+        transform: translate(-10px, 20px);
+    }
+    100% {
+        transform: translate(30px, -40px);
+    }
+}
+
 
 nav{
     position: fixed;
@@ -151,7 +188,27 @@ section {
 #About .info-box h2{
     font-size: 3em;
     font-weight: 400;
-    margin-bottom: 1em;
+}
+
+.awards {
+    display: flex;                   
+    flex-wrap: wrap;                  
+    justify-content: space-around;    
+    gap: 35px;                        
+    padding: 20px;
+    flex-direction: column;
+}
+
+.awards img {
+    width: 500px;                    
+    height: auto;                     
+    border-radius: 8px;               
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;  
+}
+
+.awards img:hover {
+    transform: scale(1.1);            
 }
 
 #tech-stack {
