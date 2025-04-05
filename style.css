@@ -329,6 +329,10 @@ section {
 }
 
 @media (max-width: 1024px) {
+    nav {
+        padding: 2em 5%;
+    }
+
     #menu {
         display: block;
     }
@@ -454,6 +458,20 @@ section {
     #Contact .tech-container p {
         font-size: 1.1em;
     }
+
+    .awards {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .awards img {
+        width: 60%;
+    }
+
+    .awards img:hover {
+        transform: scale(1.1);            
+    }
 }
 
 @media (max-width: 768px) {
@@ -559,6 +577,14 @@ section {
     #Contact .tech-container p {
         font-size: 1em;
     }
+
+    .awards img {
+        width: 60%;
+    }
+
+    .awards img:hover {
+        transform: scale(1.1);            
+    }
 }
 
 @media (max-width: 480px) {
@@ -659,5 +685,14 @@ section {
 
     #Contact .tech-container p {
         font-size: 0.9em;
+    }
+
+    .awards img {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .awards img:hover {
+        transform: scale(1.1);            
     }
 }
