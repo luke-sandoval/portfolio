@@ -74,7 +74,7 @@ ul{
     gap: 3em;
 }
 
-nav ul a{
+nav  .nav-item{
     color: white;
     font-weight: 500;
     opacity: 0.7;
@@ -190,11 +190,12 @@ section {
     gap: 35px;                        
     padding: 20px;
     flex-direction: row;
+    text-align: center;
 }
 
 .awards img {
     width: 400px;                    
-    height: auto;                     
+    height: 300px;                     
     border-radius: 8px;               
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease-in-out;  
